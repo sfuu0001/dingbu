@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "name": "供售打样 / 打烊盘点 设计令牌",
+    "source": [
+      "src/components/merchant/MerchantPrecisionConsoleV2.tsx（1056 行）",
+      "src/components/merchant/InventoryView.tsx（675 行）"
+    ],
+    "project": "UrbanRadar 流动餐车 · 商户操作台",
+    "build": "v2.9.0d0fdb27",
+    "date": "2026-11-21",
+    "note": "count = 该值在源码中出现次数（Tailwind 任意值写法 + 内联样式）；exactGlobal = 与全局 @theme 令牌完全等值"
+  },
+  "color": {
+    "brand.primary": {
+      "value": "#006494",
+      "count": 41,
+      "usage": "text 21 · bg 12 · border 8",
+      "globalToken": "--color-brand-primary",
+      "exactGlobal": true
+    },
+    "brand.primary-soft": {
+      "value": "#E8F3FA",
+      "count": 4,
+      "usage": "bg 4（选中态浅底）",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "brand.accent": {
+      "value": "#3BB4FE",
+      "count": 5,
+      "usage": "bg 3 · text 2",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "brand.deep": {
+      "value": "#001020",
+      "count": 3,
+      "usage": "bg 3（深色条）",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "ink.strong": {
+      "value": "#111827",
+      "count": 25,
+      "usage": "text 24（标题 / 数值）",
+      "globalToken": "--color-app-text (#1a1c1c)",
+      "exactGlobal": false
+    },
+    "ink.body": {
+      "value": "#71767B",
+      "count": 39,
+      "usage": "text 39（正文 / 标签）",
+      "globalToken": "--color-deck-ink-3 (#6b7480)",
+      "exactGlobal": false
+    },
+    "ink.muted": {
+      "value": "#8A9096",
+      "count": 5,
+      "usage": "bg 5（次级分隔 / 占位）",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "line.strong": {
+      "value": "#CCCCCC",
+      "count": 13,
+      "usage": "border 13",
+      "globalToken": "--color-deck-line-1 (#ccd2d8)",
+      "exactGlobal": false
+    },
+    "line.soft": {
+      "value": "#E2E2DF",
+      "count": 16,
+      "usage": "border 16",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "surface.base": {
+      "value": "#FCFCFB",
+      "count": 2,
+      "usage": "bg 2（面板底）",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "surface.raised": {
+      "value": "#F8F8F6",
+      "count": 3,
+      "usage": "bg 3（卡片）",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "surface.sunken": {
+      "value": "#F6F6F4",
+      "count": 2,
+      "usage": "bg 2（凹陷区）",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "surface.alt": {
+      "value": "#F4F4F2",
+      "count": 2,
+      "usage": "bg 2（交替行）",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "surface.dim": {
+      "value": "#F0F0EE",
+      "count": 1,
+      "usage": "bg 1",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "surface.high": {
+      "value": "#F9F9F8",
+      "count": 1,
+      "usage": "bg 1",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "surface.chip": {
+      "value": "#EAEAE8",
+      "count": 6,
+      "usage": "bg 6（标签 / 胶囊）",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "surface.chip-strong": {
+      "value": "#E4E4E0",
+      "count": 3,
+      "usage": "bg 3（胶囊按下）",
+      "globalToken": "-",
+      "exactGlobal": false
+    },
+    "state.danger": {
+      "value": "#D32F2F",
+      "count": 6,
+      "usage": "text 5 · bg 1",
+      "globalToken": "--color-deck-danger (#b3261e)",
+      "exactGlobal": false
+    },
+    "state.warn": {
+      "value": "#C26D00",
+      "count": 7,
+      "usage": "text 4 · bg 2",
+      "globalToken": "--color-deck-warn (#c67c0a)",
+      "exactGlobal": false
+    }
+  },
+  "effect": {
+    "brand.glow": {
+      "value": "rgba(0, 100, 148, 0.5)",
+      "count": 3,
+      "usage": "box-shadow 3（主按钮聚焦）"
+    },
+    "brand.accent-glow": {
+      "value": "rgba(59, 180, 254, 0.6)",
+      "count": 1,
+      "usage": "box-shadow 1（强调脉冲）"
+    }
+  },
+  "typography": {
+    "scale": {
+      "2xs": {
+        "value": "9.5px",
+        "count": 5
+      },
+      "xs": {
+        "value": "10px",
+        "count": 17
+      },
+      "xs-plus": {
+        "value": "10.5px",
+        "count": 8
+      },
+      "sm": {
+        "value": "11px",
+        "count": 13
+      },
+      "sm-plus": {
+        "value": "11.5px",
+        "count": 1
+      },
+      "base": {
+        "value": "13px",
+        "count": 5
+      },
+      "md": {
+        "value": "14px",
+        "count": 1
+      },
+      "lg": {
+        "value": "15px",
+        "count": 1
+      },
+      "display": {
+        "value": "32px",
+        "count": 1
+      }
+    },
+    "weight": {
+      "bold": {
+        "value": "700",
+        "count": 68
+      },
+      "semibold": {
+        "value": "600",
+        "count": 7
+      },
+      "medium": {
+        "value": "500",
+        "count": 1
+      },
+      "normal": {
+        "value": "400",
+        "count": 1
+      }
+    },
+    "features": {
+      "tabularNums": 9,
+      "uppercase": 30,
+      "letterSpacing": "无任意值写法（tracking-* 出现 0 次）"
+    }
+  },
+  "radius": {
+    "xs": {
+      "value": "2px",
+      "count": 7
+    },
+    "sm": {
+      "value": "3px",
+      "count": 12
+    },
+    "md": {
+      "value": "4px",
+      "count": 3
+    },
+    "full": {
+      "value": "9999px",
+      "count": 16
+    }
+  },
+  "shadow": {
+    "sm": {
+      "value": "shadow-sm",
+      "count": 2
+    },
+    "lg": {
+      "value": "shadow-lg",
+      "count": 1
+    },
+    "xl": {
+      "value": "shadow-xl",
+      "count": 1
+    }
+  },
+  "spacing": {
+    "gap": {
+      "4px": 17,
+      "6px": 25,
+      "8px": 22,
+      "10px": 9,
+      "12px": 7,
+      "16px": 3,
+      "24px": 1
+    },
+    "note": "按 gap/space 单位统计（Tailwind 1 = 4px）"
+  },
+  "border": {
+    "width": "1px（170 处默认 border）",
+    "dashed": 3
+  }
+}

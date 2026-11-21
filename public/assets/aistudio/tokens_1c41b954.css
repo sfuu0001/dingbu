@@ -1,0 +1,51 @@
+/* 供售打样 / 打烊盘点 · 设计令牌
+   由 design-tokens.json 同源生成，勿手改。
+   来源：MerchantPrecisionConsoleV2.tsx + InventoryView.tsx（2026-11-21） */
+
+:root {
+  --sc-brand-primary: #006494; /* 41 处 · text 21 · bg 12 · border 8 */
+  --sc-brand-primary-soft: #E8F3FA; /*  4 处 · bg 4（选中态浅底） */
+  --sc-brand-accent: #3BB4FE; /*  5 处 · bg 3 · text 2 */
+  --sc-brand-deep: #001020; /*  3 处 · bg 3（深色条） */
+  --sc-ink-strong: #111827; /* 25 处 · text 24（标题 / 数值） */
+  --sc-ink-body: #71767B; /* 39 处 · text 39（正文 / 标签） */
+  --sc-ink-muted: #8A9096; /*  5 处 · bg 5（次级分隔 / 占位） */
+  --sc-line-strong: #CCCCCC; /* 13 处 · border 13 */
+  --sc-line-soft: #E2E2DF; /* 16 处 · border 16 */
+  --sc-surface-base: #FCFCFB; /*  2 处 · bg 2（面板底） */
+  --sc-surface-raised: #F8F8F6; /*  3 处 · bg 3（卡片） */
+  --sc-surface-sunken: #F6F6F4; /*  2 处 · bg 2（凹陷区） */
+  --sc-surface-alt: #F4F4F2; /*  2 处 · bg 2（交替行） */
+  --sc-surface-dim: #F0F0EE; /*  1 处 · bg 1 */
+  --sc-surface-high: #F9F9F8; /*  1 处 · bg 1 */
+  --sc-surface-chip: #EAEAE8; /*  6 处 · bg 6（标签 / 胶囊） */
+  --sc-surface-chip-strong: #E4E4E0; /*  3 处 · bg 3（胶囊按下） */
+  --sc-state-danger: #D32F2F; /*  6 处 · text 5 · bg 1 */
+  --sc-state-warn: #C26D00; /*  7 处 · text 4 · bg 2 */
+  --sc-brand-glow: rgba(0, 100, 148, 0.5); /* 3 处 · box-shadow 3（主按钮聚焦） */
+  --sc-brand-accent-glow: rgba(59, 180, 254, 0.6); /* 1 处 · box-shadow 1（强调脉冲） */
+
+  --sc-text-2xs: 9.5px; /* 5 处 */
+  --sc-text-xs: 10px; /* 17 处 */
+  --sc-text-xs-plus: 10.5px; /* 8 处 */
+  --sc-text-sm: 11px; /* 13 处 */
+  --sc-text-sm-plus: 11.5px; /* 1 处 */
+  --sc-text-base: 13px; /* 5 处 */
+  --sc-text-md: 14px; /* 1 处 */
+  --sc-text-lg: 15px; /* 1 处 */
+  --sc-text-display: 32px; /* 1 处 */
+  --sc-radius-xs: 2px; /* 7 处 */
+  --sc-radius-sm: 3px; /* 12 处 */
+  --sc-radius-md: 4px; /* 3 处 */
+  --sc-radius-full: 9999px; /* 16 处 */
+  --sc-shadow-sm: shadow-sm; /* 2 处 */
+  --sc-shadow-lg: shadow-lg; /* 1 处 */
+  --sc-shadow-xl: shadow-xl; /* 1 处 */
+  --sc-space-4: 4px; /* 17 处 */
+  --sc-space-6: 6px; /* 25 处 */
+  --sc-space-8: 8px; /* 22 处 */
+  --sc-space-10: 10px; /* 9 处 */
+  --sc-space-12: 12px; /* 7 处 */
+  --sc-space-16: 16px; /* 3 处 */
+  --sc-space-24: 24px; /* 1 处 */
+}
